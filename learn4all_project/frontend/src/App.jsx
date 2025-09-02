@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const API_URL = 'http://localhost:5000/api'; // change to your Render URL
-
+const API_URL = 'https://hackaton-2-backend.onrender.com'; 
 export default function App() {
   const [tracks, setTracks] = useState([]);
 
