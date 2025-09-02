@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const API_URL = 'https://hackaton-2-backend.onrender.com'; 
+const API_URL = 'https://hackaton-2-backend.onrender.com/api'; 
 export default function App() {
   const [tracks, setTracks] = useState([]);
 
