@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-const Track = require("./models/Track");
+const Track = require("./models/Track.js");  // 👈 notice .js at the end
 
 dotenv.config();
 
