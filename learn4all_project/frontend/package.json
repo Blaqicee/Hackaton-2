@@ -1,3 +1,7 @@
+"engines": {
+  "node": "18.x"
+},
+
 {
   "name": "learn4all-frontend",
   "version": "1.0.0",
